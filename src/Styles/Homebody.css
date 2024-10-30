@@ -1,0 +1,39 @@
+.side-img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover; 
+    
+}
+.homebodycontainer{
+    display: flex;
+    align-items: flex-end;
+    padding-top: 46px;
+}
+.loginformcontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-body {
+    background-color: rgb(255, 255, 255);
+    padding: 23px 0px 10px;
+    height: 100vh; 
+    display: flex;
+}
+
+
+@media (max-width: 768px) {
+    .homebodycontainer {
+        display: none; 
+    }
+    .side-img{
+        display: none; 
+    }
+    .loginformcontainer{
+        display: flex;
+        justify-content: center;
+        padding: 80px 0px 0px 0px; 
+        align-items: center;
+    }
+}
