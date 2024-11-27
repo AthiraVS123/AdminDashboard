@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is an Admin Dashboard built with React and Material-UI, designed for managing users, roles, and permissions. It provides a user-friendly interface for administrators to easily perform actions such as adding, editing, and deleting users.
+This project is an **Admin Dashboard** built with **React** and **Material-UI**, designed for managing users, roles, and permissions. It provides a user-friendly interface for administrators to easily perform actions such as adding, editing, and deleting users.
 
 ## Features
 
