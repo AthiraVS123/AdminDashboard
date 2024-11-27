@@ -14,6 +14,8 @@ export default function LoginForm() {
   const [showPassword, setShowPassword] = useState(false);
   const [snackbarOpen, setSnackbarOpen] = useState(false);
 
+  // const [posts,setPosts]=useState([]);
+
   const dispatch = useDispatch();
   const navigate = useNavigate();
 
@@ -33,6 +35,12 @@ export default function LoginForm() {
       .required("Password is required"),
   });
 
+  // useEffect(()=>{
+  //   fetch('https://apidev-hunterfinancial.oneteamus.com/api/1.0/Application/List')
+  //   .then(response=>response.json())
+  //   .then(posts => console.log(posts))
+  // }, [])
+  
   const {
     register,
     handleSubmit,

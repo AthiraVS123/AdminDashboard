@@ -35,7 +35,9 @@ export const homepage={
 export const CardStyle={
   width:'90%',
   margin: '10px 0px 0px 0px',
-  backgroundColor:'#f7f8fa'
+  backgroundColor:'#f7f8fa',
+  display:'flex',
+  flexDirection:"column"
 }
 
 export const card1={
